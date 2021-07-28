@@ -4,7 +4,7 @@ import one.digitalinnovation.digionebank.ClienteTipo
 
 fun  main(){
     ClienteTipo.values().iterator().forEach {
-        println("${it.name} $it")
+        println("${it.name} ${it.descricao}")
     }
 
 }
